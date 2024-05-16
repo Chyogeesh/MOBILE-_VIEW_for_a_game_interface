@@ -1,0 +1,68 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Sales Banner */
+.sales-banner {
+    background-color: #ff9900;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* User Info */
+.user-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.user-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user-details {
+    text-align: right;
+}
+
+/* Main Menu */
+.main-menu {
+    margin-top: 20px;
+}
+
+.main-menu ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.main-menu ul li a:hover {
+    background-color: #ddd;
+}
